@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+        <title>house</title>
+    </head>
+    <body>
+        <div class="HOUSE">
+            <h1> HOUSE PRICE PRIDICTION</h1>
+            <h5>HOUSE PRICE PREDICTION USING MACHINE LEARNING</h5>
+            <div class="Content">
+                <form method="POST">
+                    <label>Posted by:</label>
+                    <select name="Posted_by" id="posted_by">
+                        <option value="Owner or dealer or builder">Owner or dealer or builder</option>
+                        <option value="Owner">Owner</option>
+                        <option value="Dealer">Dealer</option>
+                        <option value="Builder">Builder</option>
+                    </select><br>
+                    <label>RERA approved or not:</label>
+                    <select name="approved" id="approved">
+                        <option value="Yes">Yes</option>
+                        <option value="NO">No</option>
+                    </select><br>
+                    <label>Number of rooms:</label>
+                    <input type="text" name="room" required><br>
+                    <label>Square foot</label>
+                    <input type="text" name="square_foot" required><br>
+                    <label>Ready to move or not:</label>
+                    <select name="move" id="move">
+
+                        <option value="Yes">Yes</option>
+                        <option value="NO">No</option>
+                    </select><br>
+                    <label>City</label>
+                    <select name="city" id="city">
+                    <option value="Haldwani">Haldwani</option>
+                    </select><br><br>
+                    <button type="submit">SUBMIT</button>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
